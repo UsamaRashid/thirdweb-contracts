@@ -6,9 +6,14 @@
     "release": "npx thirdweb@latest release"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "ethers": "^5.7.2",
     "hardhat": "^2.10.1"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
     "@thirdweb-dev/contracts": "^3"
   }
 }
